@@ -27,12 +27,15 @@
 
 .logo img{
     width: 150px;
-    margin-top:370px;
+    position: absolute;
+    z-index: 10;  
+    height: 80px;
 }
 
 .nav-links{
     flex: -1;
     text-align:right;
+    font-size:20;
 }
 
 .nav-links ul li{
@@ -146,7 +149,8 @@
     border-left: 500px solid #fff;
     border-bottom:500px solid #fff ;
     border-right: 500px solid transparent;
-    position: absolute;
+    position: relative;
+    z-index: 1;
     left: 0;
     top: 0;
 }
